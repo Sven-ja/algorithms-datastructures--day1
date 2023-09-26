@@ -1,0 +1,23 @@
+LET
+    var z be the highest possible number;
+LET
+    var n = z/2
+
+REPEAT
+    INPUT
+        n;
+
+    IF response
+        "guess higher";
+         THAN n = (n/2) + (n/2)/2;
+    ELSE
+        IF response
+            "guess lower;
+            THAN n = (n/2)/2;
+        ELSE
+            n = TRUE;
+    END IF
+
+    IF
+        n = TRUE;
+    THAN end REPEAT;
